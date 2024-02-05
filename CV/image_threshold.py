@@ -31,7 +31,7 @@ if __name__ == "__main__":
 
     # Binary image
     yellow_pixel = np.array([25, 127, 127])
-    threshold = 40  # TODO: modify this value and understand what changes
+    threshold = 40  # we can change it accordingly
     binary_image = colour_threshold(image_hsv, yellow_pixel, threshold)
 
     # Plot
